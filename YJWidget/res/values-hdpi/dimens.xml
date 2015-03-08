@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <!-- 字体大小sp -->
+    <dimen name="call_info_text_size_001">18sp</dimen>
+    
+    
+    <!-- 间距dp -->
+    <dimen name="call_info_item_height_001">46dp</dimen>
+    <dimen name="call_info_item_padding_001">5dp</dimen><!-- 字体大小sp -->
+    
+    <dimen name="main_tab_height_001">53dp</dimen>
+</resources>

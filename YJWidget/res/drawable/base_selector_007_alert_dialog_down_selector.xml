@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item
+		android:state_pressed="true"
+		android:state_enabled="true"
+		android:drawable="@drawable/base_png_002_alert_dialog_down_press" />	
+	<item
+		android:drawable="@drawable/base_png_001_alert_dialog_down_normal"></item>
+
+</selector>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/items_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_select_dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/title_bar_bg_color"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/select_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/title_bar_bg_color"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/str_base_title_select"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_1"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_2"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_3"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_4"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_5"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_6"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_7"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_8"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_9"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_layout_item_10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_selector_008_alert_dialog_mid_selector"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_select_item_10"
+            style="@style/longClickPopupItem" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/select_dialog_divide_bg_color" />
+    </LinearLayout>
+   
+</LinearLayout>

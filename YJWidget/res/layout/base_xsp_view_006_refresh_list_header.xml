@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/contact_002_search_result"
+    >
+
+    <LinearLayout
+        android:id="@+id/base_xsp_view_006_refresh_list_header_contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" 
+        android:background="@android:color/transparent"
+        android:baselineAligned="false"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <com.huawei.xs.widget.base.XSEmptyCircleView
+                android:id="@+id/base_xsp_view_006_refresh_list_header_emptyCircleView"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/base_xsp_view_006_refresh_list_header_tipsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/ua_rlv_list_head_up_update_str"
+                android:textColor="@color/gray"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/dividing_line_default"/>
+
+</LinearLayout>

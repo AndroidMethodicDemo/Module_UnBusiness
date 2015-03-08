@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/eee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF8800"
+                android:text="\n这  \n 是 \n   展   \n 示\n图\n片\n\n" />
+
+            <TextView
+                android:id="@+id/dong"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#008833"
+                android:text="\n\n这  是   滚  动    的     等  一  下  固  定  在 上  面\n\n" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ff33"
+                android:text="~~~~~~\n\n\n\n这\n\n\n\n\n\n是\n\n\n\n\n\n其\n\n\n\n\n他\n\n\n\n\n\n\n的\n\n\n~~~~~~~
+                ~~~~~~\n\n\n\n这\n\n\n\n\n\n是\n\n\n\n\n\n其\n\n\n\n\n他\n\n\n\n\n\n\n的\n\n\n~~~~~~~
+                " />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/jing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#008800"
+        android:text="\n\n这    是   固     定     的\n\n" />
+</FrameLayout>

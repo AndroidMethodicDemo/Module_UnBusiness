@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+		android:state_pressed="true"
+		android:state_enabled="true"
+		android:drawable="@drawable/base_png_008_alert_dialog_mid_press" />	
+	<item
+		android:drawable="@drawable/base_png_007_alert_dialog_mid_normal"></item>
+
+</selector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <include
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/base_xsp_dialog_001_alert_base" >
+    </include>
+	
+    <!-- android:background="@drawable/base_selector_007_alert_dialog_down_selector" -->
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/alert_dialog_button_1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_selector_007_alert_dialog_down_selector"
+            android:gravity="center"
+            android:text="@string/some_string"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/font_size3" />
+
+    </LinearLayout>
+
+</LinearLayout>

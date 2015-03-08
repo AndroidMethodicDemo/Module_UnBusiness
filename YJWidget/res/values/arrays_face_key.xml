@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="face_key">
+        <item> (L) </item>
+        <item> :\"-) </item>
+        <item> :,-( </item>
+        <item> :-SS </item>
+        <item> :-S </item>
+        <item> :-)) </item>
+        <item> >:-) </item>
+        <item> :-@ </item>
+        <item> )-| </item>
+        <item> *-:-) </item>
+        <item> :-O </item>
+        <item> ~o) </item>
+        <item> :-) </item>
+        <item> B) </item>
+        <item> |-O </item>
+        <item> :-D </item>
+        <item> :-* </item>
+        <item> <![CDATA[ :-& ]]> </item>
+        <item> :-B </item>
+        <item> :-? </item>
+        <item> :-| </item>
+        <item> :-( </item>
+        <item> O:-) </item>
+        <item> :-P </item>
+        <item> 8-) </item>
+        <item> :-/ </item>
+        <item> /:-) </item>
+        <item> ;-) </item>
+        <item> \@):- </item>
+        
+        <item> (b) </item>
+        <item> (u) </item>
+        <item> <![CDATA[ \\m/ ]]> </item>
+        <item> :ar! </item>
+        <item> 8-} </item>
+        <item> =D> </item>
+        <item> <![CDATA[ <(\') ]]> </item>
+        <item> (-8) </item>
+        <item> (*) </item>
+        <item> (o) </item>
+        <item> (pi) </item>
+        <item> (mo) </item>
+        <item> (bah) </item>
+        <item> :8) </item>
+        <item> (#) </item>
+        <item> (st) </item>
+        <item> (um) </item>
+        <item> (pl) </item>
+        <item> (^) </item>
+        <item> <![CDATA[ <:o) ]]> </item>
+        <item> (~) </item>
+        <item> (g) </item>
+        <item> (e) </item>
+        <item> (t) </item>
+        <item> :-h </item>
+        <item> <![CDATA[ >:D< ]]> </item>
+    </string-array>
+
+</resources>

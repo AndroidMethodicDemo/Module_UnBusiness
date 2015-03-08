@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_bar_bg_color"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+    <TextView android:id="@+id/tv_dialog_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:textSize="@dimen/font_size3"
+        android:textColor="@color/grey"/>
+    <LinearLayout android:id="@+id/ly_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" 
+        >
+        <Button android:id="@+id/btn_dialog_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_selector_011_alert_dialog_mid_dup_selector"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/font_size3"
+            />
+        <Button android:id="@+id/btn_dialog_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/base_selector_011_alert_dialog_mid_dup_selector"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/font_size3"
+            />
+    </LinearLayout>
+    
+
+</LinearLayout>

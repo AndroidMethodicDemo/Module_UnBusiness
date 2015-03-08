@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="title">  
+        <attr name="leftLabel" format="reference"/>  
+        <attr name="leftIcon" format="reference"/>
+        <attr name="titleLabel" format="reference"/>
+        <attr name="titleIcon" format="reference"/>
+        <attr name="rightLabel" format="reference"/> 
+        <attr name="rightIcon" format="reference"/>
+    </declare-styleable>
+    
+        <declare-styleable name="infoItem">  
+        <attr name="contentLabel" format="reference"/>  
+        <attr name="noteLabel" format="reference"/>
+        <attr name="leftSingleLable" format="reference"/>       
+        <attr name="rightImg" format="reference"/>
+        <attr name="editMode" format="boolean"/>
+        <attr name="jumpMode" format="boolean"/>
+        <attr name="showSingleLeft" format="boolean"/>
+    </declare-styleable>
+      
+</resources>

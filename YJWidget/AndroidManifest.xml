@@ -1,0 +1,62 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demoxswidget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        <activity 
+            android:name="base.ACT_Launcher"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="base.widget.popupwindow.ACT_PopupWindow"
+            ></activity>
+        <activity 
+            android:name="base.widget.dialog.ACT_Dialog"
+            ></activity>
+        <activity 
+            android:name="base.widget.other.ACT_SearchView"
+            ></activity>
+        <activity 
+            android:name="base.widget.image.ACT_ImageView"
+            ></activity>
+        <activity 
+            android:name="base.widget.listview.ACT_ListView"
+            ></activity>
+        <activity 
+            android:name="base.widget.listview.ACT_PinnedHeaderExpListView"
+            ></activity>
+        <activity 
+            android:name="base.widget.listview.ACT_RefreshListView"
+            ></activity>
+        <activity 
+            android:name="base.widget.itemview.ACT_ItemView"
+            ></activity>
+        <activity android:name="base.manager.ACT_ExecutorManager"
+            ></activity>
+        <activity android:name="base.manager.ACT_Manager"
+            ></activity>
+        <activity android:name="base.widget.listview.ACT_ParallaxListView"
+            ></activity>
+        <activity android:name="base.widget.listview.ACT_RefreshableView"
+            ></activity>
+        <activity android:name="base.widget.scrollview.ACT_HoverBar"
+            ></activity>
+        <activity android:name="base.widget.scrollview.ACT_HoverView"
+            ></activity>
+    </application>
+
+</manifest>

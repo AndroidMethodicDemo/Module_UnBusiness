@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <CheckedTextView
+        android:id="@+id/select_item"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/contact_selector_001_choose_group_btn"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <View style="@style/listviewDivideStyle" />
+
+</LinearLayout>

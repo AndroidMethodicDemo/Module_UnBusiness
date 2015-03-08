@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/layout_dialog_title"
+        android:text="@string/str_base_title_select"
+        style="@style/dialogTitleStyle"/>
+    
+   <!-- android:background="@drawable/base_png_012_alert_dialog_mid_info_bg"  -->
+    <TextView
+        android:id="@+id/alert_dialog_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_png_012_alert_dialog_mid_info_bg"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:paddingBottom="23dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="23dp"
+        android:text="@string/some_string"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/font_size3" />
+    
+    <!-- android:background="@drawable/base_png_012_alert_dialog_mid_info_bg"  -->
+    <TextView
+        android:id="@+id/alert_dialog_message_whit_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_png_012_alert_dialog_mid_info_bg"
+        android:gravity="center_vertical"
+        android:maxHeight="192dip"
+        android:minHeight="50dip"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:scrollbars="vertical"
+        android:text="@string/some_string"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/font_size3"
+        android:visibility="gone" />
+
+    <!-- android:background="@drawable/base_png_012_alert_dialog_mid_info_bg"  -->
+    <ScrollView
+        android:id="@+id/whit_scrollbar"
+        android:layout_width="fill_parent"
+        android:layout_height="230dip"
+        android:fadingEdge="none"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/alert_dialog_large_message_whit_scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/base_png_012_alert_dialog_mid_info_bg"
+            android:gravity="center_vertical"
+            android:minHeight="230dip"
+            android:paddingBottom="23dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingTop="23dp"
+            android:text="@string/some_string"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/font_size3"
+            android:visibility="gone" />
+    </ScrollView>
+
+</LinearLayout>

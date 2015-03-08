@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:minWidth="280dp"
+    android:orientation="vertical"
+    tools:ignore="Overdraw" >
+
+    <TextView
+        android:id="@+id/layout_dialog_title"
+        android:text="@string/some_string"
+        style="@style/dialogTitleStyle"/>
+
+    <EditText
+        android:id="@+id/edt_new_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        
+        android:background="@drawable/main_002_edit_text_bg"
+        android:ems="10"
+        android:hint="@string/str_base_show_name"
+        android:maxLength="15"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_button_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_selector_009_alert_dialog_left_selector"
+            android:gravity="center"
+            android:text="@string/str_base_action_cancel"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/font_size3" />
+
+        <Button
+            android:id="@+id/dialog_button_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_selector_010_alert_dialog_right_selector"
+            android:gravity="center"
+            android:text="@string/str_base_action_ok"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/font_size3" />
+    </LinearLayout>
+
+</LinearLayout>

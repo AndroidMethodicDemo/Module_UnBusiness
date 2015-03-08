@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 下拉刷新 setCacheColorHint 透明 -->
+    <color name="rlv_cache_color_hint">#00000000</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 金色 -->
+    <color name="gold">#b89766</color>
+</resources>

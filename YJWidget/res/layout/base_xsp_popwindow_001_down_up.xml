@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/base_png_010_popup_dialog_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:ignore="UselessParent" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/base_selector_006_gray_green_button"
+            android:text="@string/str_base_ellipsis"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/base_selector_006_gray_green_button"
+            android:text="@string/str_base_ellipsis"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/base_selector_006_gray_green_button"
+            android:text="@string/str_base_ellipsis"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/base_selector_006_gray_green_button"
+            android:text="@string/str_base_ellipsis"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/base_selector_006_gray_green_button"
+            android:text="@string/str_base_ellipsis"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

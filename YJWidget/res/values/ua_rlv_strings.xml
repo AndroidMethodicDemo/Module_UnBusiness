@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="ua_rlv_list_head_least_update_str">最近更新:</string>
+   <string name="ua_rlv_list_head_down_update_str">下拉刷新</string>
+   <string name="ua_rlv_list_footer_up_update_str">上拉刷新</string>
+   <string name="ua_rlv_list_head_waitting_update_str">正在刷新&#8230;</string>
+   <string name="ua_rlv_list_head_up_update_str">释放后刷新</string>
+	
+   <string name="ua_rlv_list_footer_loading">正在加载&#8230;</string>
+</resources>

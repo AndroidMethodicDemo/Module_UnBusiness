@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<ScrollView 
+	    android:id="@+id/scrollView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+	    >
+
+	         <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#6666ffff"
+                android:text="
+                ~~~~~~\n\n\n\n这\n\n\n\n\n\n是\n\n\n\n\n\n其\n\n\n\n\n他\n\n\n\n\n\n\n的\n\n\n~~~~~~~
+                ~~~~~~\n\n\n\n这\n\n\n\n\n\n是\n\n\n\n\n\n其\n\n\n\n\n他\n\n\n\n\n\n\n的\n\n\n~~~~~~~
+                " />
+	</ScrollView>
+	    <LinearLayout
+        android:id="@+id/vgAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:layout_marginTop="100dp" 
+        >
+
+        <LinearLayout
+            android:id="@+id/vgShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/share"
+                />
+
+            <TextView
+                android:id="@+id/tvShare2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="22dp"
+                android:text="分享"
+                android:textColor="#444444"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vgDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/download"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvDownload2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="12dp"
+                android:text="下载"
+                android:textColor="#444444"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

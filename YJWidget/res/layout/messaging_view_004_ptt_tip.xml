@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/im_talk_timer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="161dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        android:background="@drawable/toast_prompt_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:ignore="UselessParent" >
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="24dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="0.85"
+            android:paddingTop="0dp"
+            android:text="说话时间太长"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size1" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">DemoXSWidget</string>
+    <string name="saoyisao">扫一扫</string>
+    <string name="delete">删除会话</string>
+    <string name="faqihuihua">发起会话</string>
+    <string name="str_base_ellipsis">&#8230;</string>
+    
+    <string name="str_messaging_action_take_video_006_013">录制视频</string>
+    <string name="str_messaging_action_pick_video_006_014">选择视频</string>
+    
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    
+     <string name="im_image_save_path" tools:ignore="MissingTranslation">/DCIM/RCS</string>
+</resources>

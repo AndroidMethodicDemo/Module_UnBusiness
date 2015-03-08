@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <base.widget.listview.view.XSWPinnedHeaderExpListView
+        android:id="@+id/exListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:childDivider="@android:color/transparent"
+        android:divider="@null"
+        android:groupIndicator="@android:color/transparent"
+        android:headerDividersEnabled="false"
+        android:listSelector="@android:color/transparent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_pinned_header_touch_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" >
+
+        <include
+            layout="@layout/contact_item_007_group"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>
